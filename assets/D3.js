@@ -218,7 +218,7 @@ if (crewMass <= 500) {
 }
 
 /* ESERCIZIO 8
-  Usa un for loop per cambiare il valore della proprietà "gender" di alcuni personaggi dal valore "n/a" a "robot" (Tip: puoi effettuare la riassegnazione del valore corrispondente o creare un nuovo array)
+  Usa un for loop per cambiare il valore della proprietà "gender" di alcuni peexitrsonaggi dal valore "n/a" a "robot" (Tip: puoi effettuare la riassegnazione del valore corrispondente o creare un nuovo array)
 */
 for (let i = 0; i < starWarsCharacters.length; i++) {
   const ele = starWarsCharacters[i];
@@ -243,6 +243,7 @@ for (let i = 0; i < charactersNames.length; i++) {
     }
   }
 }
+
 console.log("lunghezza finale", charactersNames.length);
 
 /* --EXTRA-- ESERCIZIO 10
